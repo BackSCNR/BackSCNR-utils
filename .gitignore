@@ -1,5 +1,5 @@
 # Ignore secrets
-token.env
+.token.env
 *.env
 *.csv
 *.xlsx

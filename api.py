@@ -4,7 +4,7 @@ import requests
 
 class Api:
     def __init__(
-        self, base_url="https://api.backscnr.com", token_file="token.env", timeout=5
+        self, base_url="https://api.backscnr.com", token_file=".token.env", timeout=5
     ):
         """
         :param base_url: The base url of the API
